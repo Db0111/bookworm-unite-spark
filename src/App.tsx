@@ -8,6 +8,7 @@ import CreateChallenge from "./pages/CreateChallenge";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import ChallengeDetail from "./pages/ChallengeDetail";
+import ChallengeRecord from "./pages/ChallengeRecord";
 import Challenges from "./pages/Challenges";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/challenge/:id" element={<ChallengeDetail />} />
+          <Route path="/challenge/:id/record" element={<ChallengeRecord />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
