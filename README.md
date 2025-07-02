@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+### Read-Together-Challenge
 
-## Project info
+#### 배포 링크
 
-**URL**: https://lovable.dev/projects/8377fe59-994b-4ce8-b886-2e5644ac08c0
+https://read-together-challenge.lovable.app/
 
-## How can I edit this code?
+#### 📚 페르소나 – 김덕빈 (25세)
 
-There are several ways of editing your application.
+#### **🎓기본 정보**
 
-**Use Lovable**
+- 나이: 25세
+- 직업/상황: 대학생 또는 취업 준비 중
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8377fe59-994b-4ce8-b886-2e5644ac08c0) and start prompting.
+#### **🧠 성향 및 라이프스타일**
 
-Changes made via Lovable will be committed automatically to this repo.
+- 독서를 좋아하지만 긴 시간 집중하거나 완독하는 데 어려움
+- 책을 사두고 읽다 마는 경우가 잦음
+- 혼자 읽을 땐 동기부여 부족
+- 읽은 내용을 나누거나 정리하고 싶다는 욕구는 있음
+- 커뮤니티 활동은 선호하지만, 부담 없이 참여 가능한 구조를 원함
 
-**Use your preferred IDE**
+⸻
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### **🎯 목표**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 책을 끝까지 읽고, 스스로 뿌듯함과 성취감을 느끼고 싶다
+- 가볍게라도 독서 기록을 남기고, 생각을 정리하고 싶다
+- 다른 사람들과 함께 읽는 구조에서 동기부여를 얻고 싶다
 
-Follow these steps:
+⸻
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+#### 💬 니즈 (Needs)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 부담 없이 참여 가능한 **독서 챌린지**
+- 매일 한 줄 기록, 인상 깊은 문장을 자유롭게 남길 수 있는 공간
+- **페이지 수 기반 진행률 시각화**
+- **인용구에 페이지 정보 입력** 가능
+- **참여 중인 챌린지를 메인에서 바로 확인**
+- **스터디(챌린지) 검색 및 탐색 기능**
 
-# Step 3: Install the necessary dependencies.
-npm i
+⸻
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+#### **❌ 페인 포인트 (Pain Points)**
 
-**Edit a file directly in GitHub**
+- 혼자서는 자꾸 책을 미루게 됨
+- 독서모임은 시간, 참여 부담이 큼
+- 감상문 쓰기는 부담스럽고 어렵게 느껴짐
+- 끝까지 읽지 못한 책이 많아 늘 아쉬움이 남음
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+⸻
 
-**Use GitHub Codespaces**
+#### 📖 사용자 시나리오
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8377fe59-994b-4ce8-b886-2e5644ac08c0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. 평소 책을 좋아하지만 완독이 어려운 김덕빈은 이번엔 혼자 말고 같이 읽어보기로 결심한다.
+2. 웹에서 챌린지를 만들고, 같이 읽을 사람들을 모집해 14일짜리 챌린지를 시작한다.
+3. 매일 읽은 페이지 수를 기록하고, 떠오른 생각이나 인용구를 남긴다.
+4. 인용구 옆에 **몇 페이지에 나온 문장인지** 표시한다.
+5. 자신의 독서량이 **막대그래프로 시각화**되며, 다른 참여자들과 함께 비교하며 자극을 받는다.
+6. 메인 페이지에 **현재 참여 중인 챌린지**가 보여져 바로 기록을 이어갈 수 있다.
+7. 홍보나 외부 링크 없이도 **챌린지 검색 기능**을 통해 새로운 스터디에 쉽게 참여할 수 있다.
+8. 그렇게 부담 없이, 함께 책 한 권을 끝까지 읽게 된다.
