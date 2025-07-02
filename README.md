@@ -2,7 +2,7 @@
 
 #### 배포 링크
 
-https://read-together-challenge.lovable.app/
+https://bookworm-unite-spark.lovable.app/
 
 #### 📚 페르소나 – 김덕빈 (25세)
 
